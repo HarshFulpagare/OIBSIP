@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(43, 38, 38, 0.7),rgba(0,0,0,0.7)),url(./01.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    height: 50vh;
+    max-width: 600px;
+    background:  rgb(238, 111, 181);
+    border-radius: 5px;
+    font-family: sans-serif;
+    padding: 20px;
+
+}
+.temp{
+    height: 45px;
+    width: 30px;
+    margin-top: 10px;
+}
+.title{
+    display: flex;
+    
+}
+.convert{
+    margin-top: 20px;
+}
+.temp{
+   height: 20px;
+}
+#celcius{
+    margin-top:5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fahrenhrit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#kelvin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.one{
+    height: 38px;
+    width: 39px;
+    margin-bottom: 7px;
+    text-align: center;
+    background: grey;
+}
+.two{
+    height: 37px;
+    width: 39;
+    margin-bottom: 2px;
+}
+.three{
+    height: 37px;
+    width: 38px;
+}
+.cel{
+    width: 350px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.fahren{
+    width: 350px;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.kel{
+    width: 350px;
+    text-align: center;
+    padding: 10px;
+}
+.btn{
+    padding: 1rem;
+    margin-top: 20px;
+    margin-left: 40%;
+    justify-content: center;
+    text-align: center;
+    border: 2pb solid black;
+    background: gray;
+}
+.icon{
+    margin-top: 2px;
+}
